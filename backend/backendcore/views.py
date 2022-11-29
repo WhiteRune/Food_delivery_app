@@ -9,4 +9,4 @@ from rest_framework.decorators import api_view, permission_classes
 @permission_classes([AllowAny],)
 def hello_django(request):
     print('300 $')
-    return Response({'message:Request succesfully returned! Jopa!'}, status = 200)
+    return Response({'message:Request succesfully returned!'}, status = 200)
