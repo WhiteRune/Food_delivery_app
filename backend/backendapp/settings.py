@@ -21,8 +21,8 @@ DEBUG = env('DEBUG')
 ALLOWED_HOSTS = []
 
 CORS_ORIGIN_WHITELIST = [
-    "http://127.0.0.1:51983",
-    "http://localhost:51983",
+    "http://127.0.0.1:57660",
+    "http://localhost:57660",
 ]
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1']
